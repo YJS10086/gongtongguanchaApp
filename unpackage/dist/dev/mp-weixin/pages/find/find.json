@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "default",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "发现",
+  "navigationBarBackgroundColor": "#d23c3e",
+  "backgroundColor": "#d23c3e",
+  "usingComponents": {}
+}

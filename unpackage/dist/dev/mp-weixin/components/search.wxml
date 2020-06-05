@@ -1,0 +1,1 @@
+<view class="content"><view class="title">共同观察</view><view class="input"><input type="text" value="{{input}}"/></view><view data-event-opts="{{[['tap',[['change']]]]}}" class="url" bindtap="__e">相机</view><view class="shade "><navigator>发动态</navigator><navigator>写文章</navigator><navigator>开直播</navigator></view></view>

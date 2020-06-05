@@ -1,0 +1,1 @@
+<view class="content"><search-list vue-id="1" bind:__l="__l"></search-list><swiper-list vue-id="2" bind:__l="__l"></swiper-list></view>

@@ -1,0 +1,104 @@
+
+.content{
+	width: 100%;
+	height: 88rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 30rpx;
+	background-color:#d23c3e;
+	color: white;
+	font-weight: bold;
+}
+.content .title{
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	        flex: 2;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 100%;
+}
+.content .input{
+	-webkit-box-flex: 4;
+	-webkit-flex: 4;
+	        flex: 4;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 100%;
+}
+.content .input input{
+	height: 55%;
+	width: 90%;
+	background-color: white;
+	border-radius: 15rpx;
+}
+.content .input input &::before{
+	background-color: #008000;
+	height: 55%;
+	width: 50rpx;
+}
+.content .url{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 100%;
+	text-align: center;
+}
+/* 点击显示区域 */
+.shade{
+	height: 180rpx;
+	width: 170rpx;
+	position: fixed;
+	right: 0;
+	top: 88rpx;
+	z-index: 1;
+	background-color: #666;
+	font-weight: normal;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	display: none;
+}
+.shade navigator{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 10rpx;
+}
+.active{
+	display: block;
+}
+

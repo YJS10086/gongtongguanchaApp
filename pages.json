@@ -1,0 +1,104 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+			}
+		}
+        ,{
+            "path" : "pages/find/find",
+            "style" : {
+				"navigationStyle":"default" ,
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "发现",
+				"navigationBarBackgroundColor": "#d23c3e",
+				"backgroundColor": "#d23c3e"
+			}
+        }
+        ,{
+            "path" : "pages/publish/publish",
+            "style" : {
+				
+			}
+        }
+        ,{
+            "path" : "pages/news_details/news_details",
+            "style" : {
+				"navigationStyle":"default" ,
+				"navigationBarTextStyle": "black",
+				"navigationBarTitleText": "文章详情",
+				"navigationBarBackgroundColor": "white",
+				"backgroundColor": "white"
+			}
+        },{
+            "path" : "pages/personal_center/personal_center",
+            "style" : {
+			}
+        },{
+			"path":"pages/personal_center/data",
+			"style":{
+				
+			}
+		},{
+			"path":"pages/personal_center/history",
+			"style":{
+				"navigationStyle":"default" ,
+				"navigationBarBackgroundColor":"white",
+				"navigationBarTitleText":"浏览历史",
+				"navigationBarTextStyle":"black"
+			}
+		},
+		{
+			"path":"pages/jifen/jifen",
+			"style":{
+				"navigationStyle":"default" ,
+				"navigationBarBackgroundColor":"#d23c3e",
+				"navigationBarTitleText":"积分商城",
+				"navigationBarTextStyle":"white"
+			}
+		},{
+            "path" : "pages/pinglun/pinglun",
+            "style" : {
+				
+			}
+        },
+		{
+			"path":"pages/guanzhu/guanzhu",
+			"style":{
+				
+			}
+		}
+    ],
+	"globalStyle": {
+		
+		"navigationStyle":"custom" 
+	},
+	"tabBar": {
+			"color":"#8a8a8a",
+			"selectedColor":"#d4237a",
+			"borderStyle":"black",
+			"backgroundColor":"#ffffff",
+			"list": [
+				{
+					"pagePath":"pages/index/index",
+					"text":"首页",
+					"iconPath":"static/首页.svg",
+					"selectedIconPath":"static/首页.svg"
+				}
+				,
+				{
+					"pagePath":"pages/find/find",
+					"text":"发现",
+					"iconPath":"static/发现.svg",
+					"selectedIconPath":"static/发现.svg"
+				},
+				{
+					"pagePath":"pages/personal_center/personal_center",
+					"text":"我的",
+					"iconPath":"static/我的.svg",
+					"selectedIconPath":"static/我的.svg"
+				}
+			]	
+		 }
+}
